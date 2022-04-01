@@ -1,2 +1,2 @@
-# eesti-keelt
-tere
+# Eesti Keelt
+Free Estonian Learning Resources.
