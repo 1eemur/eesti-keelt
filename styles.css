@@ -1,0 +1,35 @@
+@media (min-width: 350px){
+	.main-header {
+		padding-top: 5em;
+		padding-bottom: 5em;
+		background-image: url("Images/estonia-header-image-cropped.png");
+		background-position: 50% 70%;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+	.intro-text {
+		padding: 0.7em;
+		background: rgba(255, 255, 255, 0.7);
+	}
+}
+
+@media (min-width: 900px){
+	.main-header {
+		padding-top: 12em;
+		padding-bottom: 12em;
+		background-image: url("Images/estonia-header-image-cropped.png");
+		background-position: 90% 0%;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+	.intro-text {
+		padding: 0.5em;
+		background: none;
+	}
+}
+.drop {
+	text-shadow: 1px 1px 2px #000000;
+}
+.course-list {
+	height: 315px;
+}
