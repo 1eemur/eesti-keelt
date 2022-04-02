@@ -1,5 +1,5 @@
 # Eesti Keelt
-Eestikeelt.com is a centralized list of (primarily free) resources for learning the Estonian language. 
+Eestikeelt.com is a centralized list of (primarily free) resources for learning the Estonian language. 🇪🇪
 
 ## What is Estonian?
 
