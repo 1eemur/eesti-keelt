@@ -13,3 +13,7 @@ Estonian, or eesti keel, is a Finnic language written in the Latin script which 
 - List of Estonian Books, Websites, YouTube Channels and Podcasts
 - Other Language Learning Tools
 - FAQ Regarding the Estonian Language
+
+## Known Issues:
+- Anchor Tags Are Slightly Misaligned When Viewing on Mobile Devices
+- The Header Image File isn't Properly Compressed and Slows Loading Times Slightly
