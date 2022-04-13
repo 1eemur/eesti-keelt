@@ -15,8 +15,13 @@ Estonian, or eesti keel, is a Finnic language written in the Latin script which 
 - FAQ Regarding the Estonian Language
 
 ## Known Issues:
-- Anchor Tags Are Slightly Misaligned When Viewing the Site on Mobile Devices
-- The Header Image File isn't Properly Compressed and Slows Loading Times Slightly
+- Anchor tags are slightly misaligned when viewing the site on mobile devices
+- The header image file isn't properly compressed and slows loading times slightly
+- Need to add image caching
+- Image elements missing explicit width and height
+- Using PNG instead of WebP/AVIF for image files
+- Heading elements are not in descending order (h3.px-3, h3.text-center.fw-bold, h5.text-uppercase)
+- Estonian Flag image aspect ratio is slightly distorted
 
 ## Additions:
 This site was created out of an abundance of notes I gathered during my time studying Estonian over the last year, but it is by no means an exhaustive list. I have no affiliation with any of the resources or coupons included. If you have any additional resources, links, or ideas, please feel free to reach out via Discord. I have my handle listed below.
