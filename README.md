@@ -16,11 +16,10 @@ Estonian, or eesti keel, is a Finnic language written in the Latin script which 
 
 ## Known Issues:
 - Anchor tags are slightly misaligned when viewing the site on mobile devices
-- The header image file isn't properly compressed and slows loading times slightly
 - Need to add image caching
 - Image elements missing explicit width and height
 - Using PNG instead of WebP/AVIF for image files
-- Heading elements are not in descending order (h3.px-3, h3.text-center.fw-bold, h5.text-uppercase)
+- H tag structure is very crude
 - The Estonian Flag image's aspect ratio is slightly distorted
 
 ## Additions:

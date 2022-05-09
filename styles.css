@@ -2,7 +2,7 @@
 	.main-header {
 		padding-top: 5em;
 		padding-bottom: 5em;
-		background-image: url("Images/estonia-header-image-cropped.png");
+		background-image: url("Images/estonia-header-image-cropped.webp");
 		background-position: 50% 70%;
 		background-size: cover;
 		background-attachment: fixed;
@@ -16,7 +16,7 @@
 	.main-header {
 		padding-top: 12em;
 		padding-bottom: 12em;
-		background-image: url("Images/estonia-header-image-cropped.png");
+		background-image: url("Images/estonia-header-image-cropped.webp");
 		background-position: 90% 0%;
 		background-size: cover;
 		background-attachment: fixed;
