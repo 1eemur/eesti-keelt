@@ -28,4 +28,4 @@ This site was created out of an abundance of notes I gathered during my time stu
 ## Disclosure
 I have not created any of the content or resources on this web page and do not claim any ownership over the materials listed above. I've simply built this site to act as a central hub, providing information to Estonian learners. This page was inspired by Priit and Jekk55's Google Doc from the Estonian Language Learning Server. 
 
-Site created in 2022 by Lemur#4678 
+Site created in 2022 by Lemur 4678 
