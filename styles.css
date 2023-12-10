@@ -9,21 +9,18 @@
 	}
 	.intro-text {
 		padding: 0.7em;
-		background: rgba(255, 255, 255, 0.7);
+    	background: rgba(255, 255, 255, 0.5);
+    	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 	}
 }
 @media (min-width: 900px){
 	.main-header {
-		padding-top: 12em;
-		padding-bottom: 12em;
+		padding-top: 8em;
+		padding-bottom: 8em;
 		background-image: url("Images/estonia-header-image-cropped.webp");
 		background-position: 90% 0%;
 		background-size: cover;
 		background-attachment: fixed;
-	}
-	.intro-text {
-		padding: 0.5em;
-		background: none;
 	}
 }
 .drop {
