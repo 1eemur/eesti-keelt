@@ -20,9 +20,13 @@
 		<!-- Navbar -->
 		<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark py-1">
 			<div class="container">
-				<!-- Menu -->
+				<!-- Brand -->
+				<a class="navbar-brand" href="#">EestiKeelt.com</a>
+				<!-- Mobile toggle -->
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu" aria-controls="navmenu" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
 				</button>
-				<div class="collapse navbar-collapse" id="navmenu" aria-expanded="true">
+				<div class="collapse navbar-collapse" id="navmenu">
 					<ul class="navbar-nav ms-auto">
 						<li class="nav-item">
 							<a href="#learn" class="nav-link">Learn</a>
@@ -61,12 +65,12 @@
 			</div>
 		</section>
 		<!-- Introduction -->
-		<section class="bg-primary text-light p-5">
+		<section class="bg-primary text-light py-4 intro-banner">
 			<div class="container">
-				<div class="d-md-flex align-items-center">
-					<h1 class="h3 px-3">What is Estonian?</h1>
-					<p class="lead px-3">
-						Estonian, or eesti keel, is a Finno-Ugric language written in the Latin script which is the official language of Estonia and one of the European Union's official languages. Estonian is spoken natively by roughly 1.1 million people, with an estimated 160,000 living outside of Estonia.
+				<div class="d-md-flex align-items-center gap-4 px-md-2">
+					<h1 class="h4 mb-2 mb-md-0 flex-shrink-0">What is Estonian?</h1>
+					<p class="lead mb-0" style="font-size:1rem;">
+						Estonian (<em>eesti keel</em>) is a Finno-Ugric language written in the Latin script, the official language of Estonia and one of the EU's official languages. It is spoken natively by roughly 1.1 million people, with an estimated 160,000 living outside Estonia.
 					</p>
 				</div>
 			</div>
@@ -75,7 +79,7 @@
 		<section class="text-dark p-3 text-center" id="learn">
 			<div class="container">
 				<!-- Overview -->
-				<h1 class="h2 pt-5 pb-1 fs-1">Getting Started</h1>
+				<h1 class="h2 section-title text-center">Getting Started</h1>
 				<!-- Three Paths Summary -->
 				<p class="lead">Listed below are the three most common paths taken by Estonian learners. What will work best for you will depend on your own learning style, but any of these options will provide a good foundation for learning some of the basics of Estonian grammar and vocabulary.</p>
 				<section class="text-secondary">
@@ -104,13 +108,13 @@
 										<a href="http://keeleklikk.ee/" target="_blank" class="btn btn-primary">View</a>
 									</div>
 								</div>
-								<div>
+								<div class="pros-cons">
 									<ul class="list-group rounded list-group-flush my-1">
-									    <li class="list-group-item bg-info">Totally free to use</li>
 									    <li class="list-group-item bg-info">Reading, writing, and listening</li>
 									    <li class="list-group-item bg-info">Excellent grammar explanations</li>
 									    <li class="list-group-item bg-info">Writing practice with corrections</li>
-									    <li class="list-group-item bg-info">Continues with <a href="https://www.keeletee.ee/coursemap" class=" text-dark">Keeletee</a> for B1 learners</li>
+									    <li class="list-group-item bg-info">Completely free to use</li>
+									    <li class="list-group-item bg-info">Continues with for B1 and B2 learners</li>
 									    <li class="list-group-item bg-secondary text-light">Intended to be used as website, no app</li>
 									    <li class="list-group-item bg-secondary text-light">The course is a somewhat visually dated</li>
 									    <li class="list-group-item bg-secondary text-light">Vocab definitions can be a little vague</li>
@@ -141,7 +145,7 @@
 										<a href="#books" class="btn btn-primary">View</a>
 									</div>
 								</div>
-								<div>
+								<div class="pros-cons">
 									<ul class="list-group rounded list-group-flush my-1">
 									    <li class="list-group-item bg-info">Wide selection of textbooks available</li>
 									    <li class="list-group-item bg-info">More flexibility with learning pace</li>
@@ -171,7 +175,7 @@
 										<a href="https://www.speakly.me/" target="_blank" class="btn btn-primary">View</a>
 									</div>
 								</div>
-								<div>
+								<div class="pros-cons">
 									<ul class="list-group rounded list-group-flush my-1">
 									    <li class="list-group-item bg-info">Frequency-based approach to vocabulary</li>
 									    <li class="list-group-item bg-info">Offers both web and mobile app versions</li>
@@ -192,134 +196,143 @@
 		<!-- Courses -->
 		<section class="text-light bg-dark p-3 text-center" id="courses">
 			<div class="container">
-				<h1 class="py-4 fs-1">Courses</h1>
-				<p class="lead">Here is a list of the biggest Estonian courses available online. Speakly, Keeleklikk, and Keeletee are by far the most in-depth and popular, but coLanguage offers very solid grammar explations and many learners have also used Drops for vocabulary acquisition.</p>
-				<div class="row text-dark">
+				<h1 class="section-title">Courses</h1>
+				<p class="lead mb-4">Here is a list of the biggest Estonian courses available online. Speakly, Keeleklikk, and Keeletee are by far the most in-depth and popular, but coLanguage offers very solid grammar explanations and many learners have also used Drops for vocabulary acquisition.</p>
+				<div class="row text-dark g-3">
 					<!-- Speakly -->
-					<div class="col-md-4">
-						<div class="card mb-4 box-shadow">
-							<img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Speakly Estonian Course Thumbnail [100%x225]" style="width: 100%; display: block;" src="Images/courses-speakly.png" data-holder-rendered="true">
-							<div class="card-body">
-								<h1 class="h3 text-center fw-bold">Speakly</h1>
-								<p class="card-text">The app requires a subscription to use, however it does offer a free two-week trial if you want to try it out. There are also some additional discount codes for paid subscriptions floating around online (no affiliation with this site).</p>
-								<ul>
-									<li>go50 - 50% off of subscription</li>
-									<li>FNS7 - 40% off of subscription</li>
+					<div class="col-sm-6 col-lg-4">
+						<div class="card mb-2 course-card h-100">
+							<img alt="Speakly Estonian Course" style="width: 100%; display: block;" src="Images/courses-speakly.png">
+							<div class="card-body text-start">
+								<span class="level-badge level-a1-a2">A1–B1</span>
+								<h1 class="h5 card-title fw-bold text-center">Speakly</h1>
+								<p class="card-text">Frequency-based vocabulary and immersion exercises. Offers a two-week free trial; paid subscription required after that.</p>
+								<ul class="mb-2" style="list-style:disc; padding-left:1.2rem; font-size:0.88rem; color:#555;">
+									<li>go50 — 50% off subscription</li>
+									<li>FNS7 — 40% off subscription</li>
 								</ul>
-								<div class="btn-group text-center">
-									<a href="https://www.speakly.me" target="_blank" class="btn btn-md btn-outline-secondary">View</a>
+								<div class="text-center">
+									<a href="https://www.speakly.me" target="_blank" class="btn btn-sm btn-outline-secondary">View</a>
 								</div>
 							</div>
 						</div>
 					</div>
 					<!-- Keeleklikk -->
-					<div class="col-md-4">
-						<div class="card mb-4 box-shadow">
-							<img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Keeleklikk Estonian Course Thumbnail [100%x225]" style="width: 100%; display: block;" src="Images/courses-keeleklikk.png" data-holder-rendered="true">
-							<div class="card-body">
-								<h1 class="h3 text-center fw-bold">Keeleklikk</h1>
-								<p class="card-text">Launched in 2011 and funded in part by the Estonian Ministry of Education and Research, Keeleklikk offers a fun and engaging web course intended to get learners up to an A2 level of proficiency.</p>
-											<ul>
-												<li>In-depth video grammar explanations</li>
-												<li>Certificate upon completion</li>
-											</ul>
-								<div class="btn-group text-center">
-									<a href="https://www.keeleklikk.ee/" target="_blank" class="btn btn-md btn-outline-secondary">View</a>
+					<div class="col-sm-6 col-lg-4">
+						<div class="card mb-2 course-card h-100">
+							<img alt="Keeleklikk Estonian Course" style="width: 100%; display: block;" src="Images/courses-keeleklikk.png">
+							<div class="card-body text-start">
+								<span class="level-badge level-a1-a2">A1–A2</span>
+								<h1 class="h5 card-title fw-bold text-center">Keeleklikk</h1>
+								<p class="card-text">Launched in 2011 and funded in part by the Estonian Ministry of Education and Research. Fun, engaging web course with video grammar explanations and native writing corrections.</p>
+								<ul class="mb-2" style="list-style:disc; padding-left:1.2rem; font-size:0.88rem; color:#555;">
+									<li>In-depth video grammar explanations</li>
+									<li>Certificate upon completion</li>
+								</ul>
+								<div class="text-center">
+									<a href="https://www.keeleklikk.ee/" target="_blank" class="btn btn-sm btn-outline-secondary">View</a>
 								</div>
 							</div>
 						</div>
 					</div>
 					<!-- Keeletee -->
-					<div class="col-md-4">
-						<div class="card mb-4 box-shadow">
-							<img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Keeletee Estonian Course Thumbnail [100%x225]" style="width: 100%; display: block;" src="Images/courses-keeletee.png" data-holder-rendered="true">
-							<div class="card-body">
-								<h1 class="h3 text-center fw-bold">Keeletee</h1>
-								<p class="card-text">Keeletee was designed as the follow-up course to Keeleklikk to allow those studying Estonian to continue their learning. Keeletee is designed to help students further their independent studies and reach a B1 level.</p>
-											<ul>
-												<li>Totally free to use</li>
-												<li>Similar format to Keeleklikk</li>
-											</ul>
-								<div class="btn-group text-center">
-									<a href="https://www.keeletee.ee" target="_blank" class="btn btn-md btn-outline-secondary">View</a>
+					<div class="col-sm-6 col-lg-4">
+						<div class="card mb-2 course-card h-100">
+							<img alt="Keeletee Estonian Course" style="width: 100%; display: block;" src="Images/courses-keeletee.png">
+							<div class="card-body text-start">
+								<span class="level-badge level-b1">B1</span>
+								<h1 class="h5 card-title fw-bold text-center">Keeletee</h1>
+								<p class="card-text">The official follow-up to Keeleklikk, designed to take learners from A2 to B1 through independent study. Same format and quality as its predecessor.</p>
+								<ul class="mb-2" style="list-style:disc; padding-left:1.2rem; font-size:0.88rem; color:#555;">
+									<li>Totally free to use</li>
+									<li>Similar format to Keeleklikk</li>
+								</ul>
+								<div class="text-center">
+									<a href="https://www.keeletee.ee" target="_blank" class="btn btn-sm btn-outline-secondary">View</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Keelelend -->
+					<div class="col-sm-6 col-lg-4">
+						<div class="card mb-2 course-card h-100">
+							<img alt="Keeletee Estonian Course" style="width: 100%; display: block;" src="Images/courses-keelelend.png">
+							<div class="card-body text-start">
+								<span class="level-badge level-b2">B2</span>
+								<h1 class="h5 card-title fw-bold text-center">Keelelend</h1>
+								<p class="card-text">The B2-level continuation of the Keeleklikk/Keeletee series, produced by the same team and available on Keeleklikk.ee. Covers advanced grammar, reading comprehension, and listening at a more advanced level.</p>
+								<div class="text-center">
+									<a href="https://www.keeleklikk.ee/en/B2/coursemap" target="_blank" class="btn btn-sm btn-outline-secondary">View</a>
 								</div>
 							</div>
 						</div>
 					</div>
 					<!-- coLanguage -->
-					<div class="col-md-4">
-						<div class="card mb-4 box-shadow">
-							<img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="coLanguage Estonian Course Thumbnail [100%x225]" style="width: 100%; display: block;" src="Images/courses-colang.png" data-holder-rendered="true">
-							<div class="card-body">
-								<h1 class="h3 text-center fw-bold">coLanguage</h1>
-								<p class="card-text">In-depth written grammar explanations.</p>
-								<div class="btn-group text-center">
-									<a href="https://www.colanguage.com/estonian-course-beginners" target="_blank" class="btn btn-md btn-outline-secondary">View</a>
+					<div class="col-sm-6 col-lg-4">
+						<div class="card mb-2 course-card h-100">
+							<img alt="coLanguage Estonian Course" style="width: 100%; display: block;" src="Images/courses-colang.png">
+							<div class="card-body text-start">
+								<span class="level-badge level-a1-a2">A1–A2</span>
+								<h1 class="h5 card-title fw-bold text-center">coLanguage</h1>
+								<p class="card-text">In-depth written grammar explanations. Great as a grammar reference alongside other courses.</p>
+								<div class="text-center mt-2">
+									<a href="https://www.colanguage.com/estonian-course-beginners" target="_blank" class="btn btn-sm btn-outline-secondary">View</a>
 								</div>
 							</div>
 						</div>
 					</div>
 					<!-- Drops -->
-					<div class="col-md-4">
-						<div class="card mb-4 box-shadow">
-							<img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Drops Estonian Course Thumbnail [100%x225]" style="width: 100%; display: block;" src="Images/courses-drops.png" data-holder-rendered="true">
-							<div class="card-body">
-								<h1 class="h3 text-center fw-bold">Drops</h1>
-								<p class="card-text">Engaging app for learning vocabulary.</p>
-								<div class="btn-group text-center">
-									<a href="https://languagedrops.com/language/learn-estonian" target="_blank" class="btn btn-md btn-outline-secondary">View</a>
+					<div class="col-sm-6 col-lg-4">
+						<div class="card mb-2 course-card h-100">
+							<img alt="Drops Estonian Course" style="width: 100%; display: block;" src="Images/courses-drops.png">
+							<div class="card-body text-start">
+								<span class="level-badge level-a1-a2">A1–A2</span>
+								<h1 class="h5 card-title fw-bold text-center">Drops</h1>
+								<p class="card-text">Engaging visual vocabulary app. Best used as a supplement rather than a primary course.</p>
+								<div class="text-center mt-2">
+									<a href="https://languagedrops.com/language/learn-estonian" target="_blank" class="btn btn-sm btn-outline-secondary">View</a>
 								</div>
 							</div>
 						</div>
 					</div>
 					<!-- Let's Learn Estonian -->
-					<div class="col-md-4">
-						<div class="card mb-4 box-shadow">
-							<img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Let's Learn Estonian Course Thumbnail [100%x225]" style="width: 100%; display: block;" src="Images/courses-lets-learn-estonian.png" data-holder-rendered="true">
-							<div class="card-body">
-								<h1 class="h3 text-center fw-bold">Let's Learn Estonian</h1>
-								<p class="card-text">A short, grammar-light video series.</p>
-								<div class="btn-group text-center">
-									<a href="https://www.youtube.com/playlist?list=PLwzaKL53VjNZVSHAkwHJR31A2YfcBlvfh" target="_blank" class="btn btn-md btn-outline-secondary">View</a>
+					<div class="col-sm-6 col-lg-4">
+						<div class="card mb-2 course-card h-100">
+							<img alt="Let's Learn Estonian" style="width: 100%; display: block;" src="Images/courses-lets-learn-estonian.png">
+							<div class="card-body text-start">
+								<span class="level-badge level-a1-a2">A1</span>
+								<h1 class="h5 card-title fw-bold text-center">Let's Learn Estonian</h1>
+								<p class="card-text">A short, grammar-light video series on YouTube — good for absolute beginners wanting a gentle introduction.</p>
+								<div class="text-center mt-2">
+									<a href="https://www.youtube.com/playlist?list=PLwzaKL53VjNZVSHAkwHJR31A2YfcBlvfh" target="_blank" class="btn btn-sm btn-outline-secondary">View</a>
 								</div>
 							</div>
 						</div>
 					</div>
-					<!-- Estonian 101 -->
-					<div class="col-md-4">
-						<div class="card mb-4 box-shadow">
-							<img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Estonian 101 Course Thumbnail [100%x225]" style="width: 100%; display: block;" src="Images/courses-estonian101.png" data-holder-rendered="true">
-							<div class="card-body">
-								<h1 class="h3 text-center fw-bold">Estonian 101 Course</h1>
-								<p class="card-text">Not the best or most in-depth course, but free to use.</p>
-								<div class="btn-group text-center">
-									<a href="https://www.101languages.net/estonian/" target="_blank" class="btn btn-md btn-outline-secondary">View</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- Learn Estonian with Tahela -->
-					<div class="col-md-4">
-						<div class="card mb-4 box-shadow">
-							<img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Linglot Estonian Course Thumbnail [100%x225]" style="width: 100%; display: block;" src="Images/courses-tahela.png" data-holder-rendered="true">
-							<div class="card-body">
-								<h1 class="h3 text-center fw-bold">Estonian with Tahela</h1>
-								<p class="card-text">Lots of videos on grammar and vocabulary.</p>
-								<div class="btn-group text-center">
-									<a href="https://www.youtube.com/@learnestonianwithtahela" target="_blank" class="btn btn-md btn-outline-secondary">View</a>
+					<!-- Estonian with Tahela -->
+					<div class="col-sm-6 col-lg-4">
+						<div class="card mb-2 course-card h-100">
+							<img alt="Estonian with Tahela" style="width: 100%; display: block;" src="Images/courses-tahela.png">
+							<div class="card-body text-start">
+								<span class="level-badge level-a1-a2">A1–B1</span>
+								<h1 class="h5 card-title fw-bold text-center">Estonian with Tahela</h1>
+								<p class="card-text">YouTube channel with lots of videos covering grammar, vocabulary, and everyday Estonian usage.</p>
+								<div class="text-center mt-2">
+									<a href="https://www.youtube.com/@learnestonianwithtahela" target="_blank" class="btn btn-sm btn-outline-secondary">View</a>
 								</div>
 							</div>
 						</div>
 					</div>
 					<!-- Estonian Unlocked -->
-					<div class="col-md-4">
-						<div class="card mb-4 box-shadow">
-							<img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="book2n Estonian Course Thumbnail [100%x225]" style="width: 100%; display: block;" src="Images/courses-unlocked.jpg" data-holder-rendered="true">
-							<div class="card-body">
-								<h1 class="h3 text-center fw-bold">Estonian Unlocked</h1>
-								<p class="card-text">High-quality videos for Estonian learners.</p>
-								<div class="btn-group text-center">
-									<a href="https://www.youtube.com/@estonianunlocked/videos" target="_blank" class="btn btn-md btn-outline-secondary">View</a>
+					<div class="col-sm-6 col-lg-4">
+						<div class="card mb-2 course-card h-100">
+							<img alt="Estonian Unlocked" style="width: 100%; display: block;" src="Images/courses-unlocked.jpg">
+							<div class="card-body text-start">
+								<span class="level-badge level-a1-a2">A1–B1</span>
+								<h1 class="h5 card-title fw-bold text-center">Estonian Unlocked</h1>
+								<p class="card-text">High-quality YouTube videos for Estonian learners, covering grammar and cultural context.</p>
+								<div class="text-center mt-2">
+									<a href="https://www.youtube.com/@estonianunlocked/videos" target="_blank" class="btn btn-sm btn-outline-secondary">View</a>
 								</div>
 							</div>
 						</div>
@@ -330,58 +343,58 @@
 		<!-- Dictionaries -->
 		<section class="text-light bg-primary p-3 text-center" id="dictionaries">
 			<div class="container">
-				<h1 class="py-4 fs-1">Dictionaries</h1>
-				<ul class="list-group text-start py-1">
-					<li class="list-group-item">
-						Sõnaveeb Eesti Keele Instituut Dictionary - <a href="https://sonaveeb.ee/" target="_blank" class="link-secondary">Sonaveeb.ee</a>
+				<h1 class="section-title">Dictionaries</h1>
+				<ul class="list-unstyled text-start py-1 resource-list">
+					<li>
+						<strong>Sõnaveeb Eesti Keele Instituut Dictionary</strong> - <a href="https://sonaveeb.ee/" target="_blank" class="link-dark">Sonaveeb.ee</a>
 						<ul><li>Amazing dictionary that provides example sentences and full case declensions for most words.</li></ul>
 					</li>
-					<li class="list-group-item">
-						Many Different Estonian-English Dictionaries - <a href="http://www.keeleveeb.ee/" target="_blank" class="link-secondary">Keeleveeb.ee</a>
-						<ul><li>This site isn't the prettiest to look at, but it offers a wide range of excellent Estonian dictionaries.</li></ul>
-					</li>
-					<li class="list-group-item">
-						Sõnamobi - <a href="https://sonamobi.osmz.ee" target="_blank" class="link-secondary">sonamobi.osmz.ee</a>
+					<li>
+						Sõnamobi - <a href="https://sonamobi.osmz.ee" target="_blank" class="link-dark">sonamobi.osmz.ee</a>
 						<ul><li>Mobile app to make using Sõnaveeb much more comfortable on mobile. Available on both Android and iOS.</li></ul>
 					</li>
-					<li class="list-group-item">
-						English Estonian Dictionary - <a href="http://www.eki.ee/dict/ies/index.cgi" target="_blank" class="link-secondary">Eki.ee/dict/ies/index.cgi</a>
+					<li>
+						Many Different Estonian-English Dictionaries - <a href="http://www.keeleveeb.ee/" target="_blank" class="link-dark">Keeleveeb.ee</a>
+						<ul><li>This site isn't the prettiest to look at, but it offers a wide range of excellent Estonian dictionaries.</li></ul>
+					</li>
+					<li>
+						English Estonian Dictionary - <a href="http://www.eki.ee/dict/ies/index.cgi" target="_blank" class="link-dark">Eki.ee/dict/ies/index.cgi</a>
 						<ul><li>Less intuitive than some of the other dictionaries listed here, but very useful.</li></ul>
 					</li>
-					<li class="list-group-item">
-						Estonian English Dictionary - <a href="https://glosbe.com/et/en/" target="_blank" class="link-secondary">Glosbe.com/et/en</a>
+					<li>
+						Estonian English Dictionary - <a href="https://glosbe.com/et/en/" target="_blank" class="link-dark">Glosbe.com/et/en</a>
 						<ul><li>An excellent contextual dictionary that allows you to see a word in real world usage. Make sure you select whether your word is in English or Estonian before searching or you won't get any results.</li></ul>
 					</li>
-					<li class="list-group-item">
-						English-Estonian Dictionary - <a href="https://enet.animato.ee/" target="_blank" class="link-secondary">Enet.animato.ee</a>
+					<li>
+						English-Estonian Dictionary - <a href="https://enet.animato.ee/" target="_blank" class="link-dark">Enet.animato.ee</a>
 						<ul><li>A very simple online English-Estonian Dictionary.</li></ul>
 					</li>
-					<li class="list-group-item">
-						Estonian Language Institute Dictionary - <a href="http://www.eki.ee/dict/psv/" target="_blank" class="link-secondary">Eki.ee/dict/psv</a>
+					<li>
+						Estonian Language Institute Dictionary - <a href="http://www.eki.ee/dict/psv/" target="_blank" class="link-dark">Eki.ee/dict/psv</a>
 					</li>
-					<li class="list-group-item">
-						Free online English-Estonian Dictionary - <a href="http://dict.ibs.ee/" target="_blank" class="link-secondary">Dict.ibs.ee</a>
+					<li>
+						Free online English-Estonian Dictionary - <a href="http://dict.ibs.ee/" target="_blank" class="link-dark">Dict.ibs.ee</a>
 					</li>
-					<li class="list-group-item">
-						Estonian-English Dictionary for Amazon Kindle Devices - <a href="Files/eestiinglise.mobi" target="_blank" class="link-secondary">Link (MOBI file)</a>
+					<li>
+						Estonian-English Dictionary for Amazon Kindle Devices - <a href="Files/eestiinglise.mobi" target="_blank" class="link-dark">Link (MOBI file)</a>
 					</li>
-					<li class="list-group-item">
-						Estonian Visual Dictionary - <a href="https://sonaveeb.ee/wordgame" target="_blank" class="link-secondary">Sõnaveeb Piltsõnasik</a>
+					<li>
+						Estonian Visual Dictionary - <a href="https://sonaveeb.ee/wordgame" target="_blank" class="link-dark">Sõnaveeb Piltsõnasik</a>
 					</li>
-					<li class="list-group-item">
-						Estonian-French Dictionary - <a href="https://www.estfra.ee/?lang=est" target="_blank" class="link-secondary">Estfra.ee</a>
+					<li>
+						Estonian-French Dictionary - <a href="https://www.estfra.ee/?lang=est" target="_blank" class="link-dark">Estfra.ee</a>
 					</li>
-					<li class="list-group-item">
-						Estonian-Ukrainian Dictionary - <a href="https://www.eki.ee/dict/ukraina/" target="_blank" class="link-secondary">Eki.ee/dict/ukraina</a>
+					<li>
+						Estonian-Ukrainian Dictionary - <a href="https://www.eki.ee/dict/ukraina/" target="_blank" class="link-dark">Eki.ee/dict/ukraina</a>
 					</li>
-					<li class="list-group-item">
-						Estonian Slang Dictionary - <a href="https://www.eki.ee/dict/slang/teemad.html" target="_blank" class="link-secondary">Eki.ee/dict/slang</a>
-					</li>					
-					<li class="list-group-item">
-						Forvo Pronunciation Dictionary - <a href="https://forvo.com/" target="_blank" class="link-secondary">Forvo.com</a>
-					</li>					
-					<li class="list-group-item">
-						Estonian Dictionary of IT erms - <a href="https://akit.cyber.ee/" target="_blank" class="link-secondary">akit.cyber.ee</a>
+					<li>
+						Estonian Slang Dictionary - <a href="https://www.eki.ee/dict/slang/teemad.html" target="_blank" class="link-dark">Eki.ee/dict/slang</a>
+					</li>
+					<li>
+						Forvo Pronunciation Dictionary - <a href="https://forvo.com/" target="_blank" class="link-dark">Forvo.com</a>
+					</li>
+					<li>
+						Estonian Dictionary of IT Terms - <a href="https://akit.cyber.ee/" target="_blank" class="link-dark">akit.cyber.ee</a>
 					</li>
 				</ul>
 			</div>
@@ -389,7 +402,7 @@
 		<!-- Content -->
 		<section class="text-dark p-3 text-center" id="content">
 			<div class="container">
-				<h1 class="py-4 fs-1">Content</h1>
+				<h1 class="section-title">Content</h1>
 				<div class="row text-dark text-start">
 					<!-- Text Content -->
 					<div class="col-md-6">
@@ -613,7 +626,7 @@
 								<li>Tumedad Tunnid - <a href="http://www.tumedadtunnid.ee/" target="_blank" class="link-secondary">Link</a></li>
 								<li>Öökulli Akadeemia - <a href="https://www.loodusmuuseum.ee/et/ookulli-akadeemia-podcast" target="_blank" class="link-secondary">Link</a></li>
 								<li>Mis värk sellega on? - <a href="https://podcast.ee/show/mis-vark-sellega-on/" target="_blank" class="link-secondary">Link</a></li>
-								<li>Kirsitšilli <a hr ef="https://www.youtube.com/@kirsitsilli2546/videos" target="_blank" class="link-secondary">Link</a></li>
+								<li>Kirsitšilli - <a href="https://www.youtube.com/@kirsitsilli2546/videos" target="_blank" class="link-secondary">Link</a></li>
 								<li>Rannaväljaanne - <a href="https://open.spotify.com/show/6UsXMjxJ18GYGfzLcKgcXO" target="_blank" class="link-secondary">Link</a></li>
 								<li>Inveteerimisjutud - <a href="https://podcast.ee/show/investeerimisjutud/" target="_blank" class="link-secondary">Link</a></li>
 								<li>Alkeemia - <a href="https://soundcloud.com/alkeemiapodcast" target="_blank" class="link-secondary">Link</a></li>
@@ -630,8 +643,8 @@
 		<!-- Tools -->
 		<section class="text-light bg-dark p-3 text-center" id="tools">
 			<div class="container">
-				<h1 class="py-4 fs-1">Tools</h1>
-				<ul class="list-unstyled text-start py-1">
+				<h1 class="section-title">Tools</h1>
+				<ul class="list-unstyled text-start py-1 resource-list">
 					<li>
 						Clozemaster - <a href="https://www.clozemaster.com/languages/learn-estonian-online" target="_blank" class="link-secondary">clozemaster.com</a>
 						<ul>
@@ -698,7 +711,7 @@
 					<li>
 						Leemur's Estonian Anki Deck - <a href="https://ankiweb.net/shared/info/540341841" target="_blank" class="link-secondary">Ankiweb</a>
 						<ul>
-							<li>My own personal deck of over 20,000 cards for Estonian vocabulary. The deck includes key case declensions/conjugations and sample sentences for all cards.</li>
+							<li>My own personal deck of over 21,000 cards for Estonian vocabulary. The deck includes key case declensions/conjugations and sample sentences for all cards.</li>
 							<li>This deck is updated from time to time. If it says the item is currently unavailable, that means it's been changed and needs to pass a copyright check. It will be live within 24 hours.</li>
 						</ul>
 					</li>
@@ -748,8 +761,8 @@
 		<!-- MISC -->
 		<section class="text-dark bg-light p-3 text-center">
 			<div class="container">
-				<h1 class="py-4 fs-1">MISC.</h1>
-				<ul class="list-unstyled text-start py-1">
+				<h1 class="section-title">MISC.</h1>
+				<ul class="list-unstyled text-start py-1 resource-list">
 					<li>
 						CEFR Self-Assessment Grid (A1-C2):
 						<ul>
@@ -814,7 +827,7 @@
 		<!-- FAQ -->
 		<section class="text-dark p-4 text-center" id="faq">
 			<div class="container">
-				<h1 class="py-3 fs-1">FAQ</h1>
+				<h1 class="section-title">FAQ</h1>
 				<div class="accordion accordion-flush" id="accordionFlushExample">
 				  <div class="accordion-item">
 				  	<!-- -MA vs -DA Infinitive -->
@@ -934,11 +947,11 @@
 				  <!-- Typing Slang -->
 				  <div class="accordion-item">
 				    <h1 class="h2 accordion-header" id="flush-headingThree">
-				      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-headingThree" aria-expanded="false" aria-controls="flush-headingThree">
+				      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
 				        How to write without the Estonian keyboard
 				      </button>
 				    </h1>
-				    <div id="flush-headingThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+				    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree-btn" data-bs-parent="#accordionFlushExample">
 				      <div class="accordion-body">
 				      	<h1 class="h5 fw-bold">Unofficial Estonian special character (umlaut) substitution:</h1>
 			      		<ul class="list-group">
